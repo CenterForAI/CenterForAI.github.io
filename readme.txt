@@ -1,8 +1,6 @@
-Real Estate Builders Free Responsive Website Templates - icon
--------
+Bootstrap/HTML5 Responsive Template
 
-Icon real estate developers free responsive HTML template is a well designed for industry that need modern looks for Real estate, Builders, Constructions, Architecture sites. This is build on top of HTML5, Bootstrap 3.2.0 . This template is built using latest Bootstrap 3.2, html5 and css3 which is easy and simple to customeise the theme as per requirements. This template designed with height quality standards to meet the latest requirment and it is a responsive template fits in all devices with multi browser support. Download for free.  
-
+Avenger Multi-purpose Responsive HTML5 Bootstrap Template is a free website template for all types of business. This template is a modern clean designed build on top of Bootstrap using HTML5 CSS3 this template fits in all types of domains like agency, business, consultancy, portfolio, real estate, interior designer, and many more. This template designed with height quality standards to meet the latest requirements and it is a responsive template fits in all devices with multi browser support. Download for free.  
 
 Credits :
 -------
