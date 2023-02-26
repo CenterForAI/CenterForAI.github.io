@@ -9,8 +9,21 @@
 		<meta name="description" content="Responsive HTML5 Template">
 		<meta name="author" content="webthemez">
 		<style>
-			img.idk{
-				width: 90px;
+			img.urmom{
+				height: 175px;
+				width: 500px;
+				object-fit: cover;
+			}
+			img.contact_pic{
+				height :350px;
+				border-radius: 10px;
+			}
+			table, td, th {
+  				border: 1px solid;
+			}
+			table {
+				width: 100%;
+				border-collapse: collapse;
 			}
 		</style>
 		<!-- Mobile Meta -->
@@ -41,13 +54,13 @@
 
 							<!-- logo -->
 							<div class="logo smooth-scroll">
-								<a href="#banner"><img class ="idk" id="logo" src="images/logo.png" alt="Worthy"></a>
+								<a href="#banner"><img style="width: 300px;" id="logo" src="images/logo.png" alt="Worthy"></a>
 							</div>
 
 							<!-- name-and-slogan -->
-							<div class="logo-section smooth-scroll">
+							<!-- <div class="logo-section smooth-scroll">
 								<div class="brand"><a href="#banner"><h1> <p style="color:rgb(255, 255, 255);">RIT</p> </h1></a></div>								
-							</div>
+							</div> -->
 
 						</div>
 						<!-- header-left end -->
@@ -81,10 +94,11 @@
 												<li class="active"><a href="#banner">Home</a></li>
 												<li><a href="#Divisions">Divisions</a></li>
 												<li><a href="#about">About</a></li>
-												
-												<li><a href="#portfolio">Portfolio</a></li>
-												<li><a href="#price">Price</a></li>
+												<li><a href=#fml>Publications</a></li>
+												<li><a href="#portfolio">Projects</a></li>
+												<!--<li><a href="#price">Price</a></li>-->
 												<li><a href="#contact">Contact</a></li>
+
 											</ul>
 										</div>
 
@@ -145,7 +159,7 @@
 								<i class="fa fa-gear"></i>
 							</div>
 							<div class="media-body">
-								<h3 class="media-heading">Responsible AI</h3>
+								<h3 class="media-heading" >Responsible AI</h3>
 								<blockquote>
 									<p>the practice of designing, developing, and deploying AI with good intention to empower employees and businesses, and fairly impact customers and society</p>
 									
@@ -192,8 +206,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h1 id="about" class="title text-center">About <span>the Center</span></h1>
-						<p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. laudantium culpa tenetur.</p>
+						<h1 id="about" class="title text-center">About <span style="color:#4D9DE0;">the Center</span></h1>
+						<p class="lead text-center">Machine intelligence is the last invention that humanity will ever need to make. -Nick Bostrom</p>
 						<div class="space"></div>
 						<div class="row">
 							<div class="col-md-6">
@@ -201,18 +215,18 @@
 								<div class="space"></div>
 							</div>
 							<div class="col-md-6">
-								<p>The CENTRE FOR ARTIFICIAL INTELLIGENCE is initiated to acclimatize our budding Engineers and Faculty to the future Technologies of the world, the Centre provides a platform to learn, apply, design, develop and realize the realities of AI in inter-disciplinary domains. This centre provides a platform to explore more research areas and nurture the learning skills among faculty and students of our college.</p>
+								<p align="justify" style="font-size: 15px;">The CENTRE FOR ARTIFICIAL INTELLIGENCE is initiated to acclimatize our budding Engineers and Faculty to the future Technologies of the world, the Centre provides a platform to learn, apply, design, develop and realize the realities of AI in inter-disciplinary domains. This centre provides a platform to explore more research areas and nurture the learning skills among faculty and students of our college.</p>
 							</div>
 							<div class="col-sm-6 col-md-3 isotope-item web-design">
 								<div class="image-box">
 									<div class="overlay-container">
-										<img src="images/portfolio-1.jpg" alt="">
+										<img class="urmom" src="images/mentor.jpg" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-1">
 											<i class="fa fa-search-plus"></i>
 											 
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">Project Title</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">Mentors</a>
 								</div>
 								<!-- Modal -->
 								<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
@@ -220,16 +234,51 @@
 										<div class="modal-content">
 											<div class="modal-header">
 												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="project-1-label">Project Title</h4>
+												<h4 class="modal-title" id="project-1-label">Details of Industry/Academic Mentors</h4>
 											</div>
 											<div class="modal-body">
 												
 												<div class="row">												 
 													<div class="col-md-12">
-														<img src="images/portfolio-1.jpg" alt="">
-														<br/>
-														<h3>Project Description</h3>
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt.</p>
+														<!-- <img src="images/portfolio-1.jpg" alt=""> -->
+														<table>
+															<tr>
+																<th>S.No</th>
+																<th>Industry/Academic Mentors</th>
+																<th>Name of the Industry/Institution</th>
+																<th>Expertise</th>
+																<th>Logo</th>
+															</tr>
+															<tr>
+																
+																<td>1</td>
+																<td>Dr Novin Ghaffari,Chief Intelligence and Analytics Officers</td>
+																<td>Nulixir Inc. Austin, Texas</td>
+																<td>Data Analytics</td>
+																<td><img src="images/1.png" alt="" style="height: 50px; margin-left: 30px;"></td>
+															</tr>
+															<tr>
+																<td>2</td>
+																<td>Mr. Jai Ugra, Inventory Analyst</td>
+																<td>Target, Minnesota, United States</td>
+																<td>Data Analytics</td>
+																<td><img src="images/2.png" alt="" style="height: 100px; margin-left: 50px;"></td>
+															</tr>
+															<tr>
+																<td>3</td>
+																<td>Mr. Sidiq Sherief, Senior Technical Trainer</td>
+																<td>ICT Academy, Chennai</td>
+																<td>Data Analytics</td>
+																<td><img src="images/3.png" alt="" style="height: 100px; margin-left: 20px;"></td>
+															</tr>
+															<tr>
+																<td>4</td>
+																<td>Mr.RajKumar Kalaimani, Technical Lead</td>
+																<td>CITIUS Technologies, Chennai</td>
+																<td>Artificial Intelligence</td>
+																<td><img src="images/4.png" alt="" style="height: 40px; margin-left: 20px;"></td>
+															</tr>
+														  </table>
 													</div>
 												</div>
 											</div>
@@ -244,10 +293,9 @@
 							<div class="col-sm-6 col-md-3 isotope-item web-design">
 								<div class="image-box">
 									<div class="overlay-container">
-										<img src="images/image.png" alt="">
+										<img src="images/image.png" alt="" class="urmom">
 										<a class="overlay" data-toggle="modal" data-target="#image">
 											<i class="fa fa-search-plus"></i>
-											 
 										</a>
 									</div>
 									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#image">Facilities Available</a>
@@ -264,13 +312,13 @@
 												
 												<div class="row">												 
 													<div class="col-md-12">
-														<img src="images/image.png" alt="">
+														<img src="images/image.png" alt="" style="height: 500px;">
 														<br/>
 														<h3>Server Configuration</h3>
 														<ul class="list-unstyled">
 															<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Server Board: S2600WFT</li>
 															<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Processor: Intel Xeon Silver4210 CPU @2.20GHZ 2.19GHZ</li>
-															<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Consectetur adipisicing elit</li>
+															<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> RAM: 64 GB HDD :1863 GB</li>
 														</ul>
 													</div>
 												</div>
@@ -285,32 +333,35 @@
 							</div>
 						</div>
 						<div class="space"></div>
-						<h2>Amazing free bootstrap template</h2>
+
 						<div class="row">
+							<h2>Objectives of <span style="color:#4D9DE0;">the Center </span></h2>
 							<div class="col-md-6">
-								<p>Lorem ipsum dolor sit amet, adipisicing  sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde error commodi architecto, laudantium culpa optio corporis quod earumdignissimos eius mollitia et quas officia doloremque.</p>
+								<!-- <p>Lorem ipsum dolor sit amet, adipisicing  sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde error commodi architecto, laudantium culpa optio corporis quod earumdignissimos eius mollitia et quas officia doloremque.</p> -->
 									<ul class="list-unstyled">
-									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Lorem ipsum enimdolor sit amet</li>
-									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Explicabo deleniti neque aliquid</li>
-									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Consectetur adipisicing elit</li>
-									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Lorem ipsum dolor sit amet</li>
-									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Quo issimos molest quibusdam temporibus</li>
+									<li align="justify" style="font-size: 18px;"><i class="fa fa-arrow-circle-right pr-10 colored"></i>To create a knowledge hub of Data Science with a consistent urge to get enlightened by developing, maintaining and continuously exploring and improving the nuances of resources/Data Science to serve the need of the Technological demands.</li>
+									<li align="justify" style="font-size: 18px;"><i class="fa fa-arrow-circle-right pr-10 colored"></i> To concerned with the collection, preparation, analysis, visualization, management and preservation of large collections of information aiming at generating value from the data itself.</li>
+									<li align="justify" style="font-size: 18px;"><i class="fa fa-arrow-circle-right pr-10 colored"></i> To build systems and algorithms to extract knowledge, find patterns; generate insights and predictions from diverse data for various applications.</li>
+									<li align="justify" style="font-size: 18px;"><i class="fa fa-arrow-circle-right pr-10 colored"></i> To leading field of study because of the numerous opportunities it offers in terms business and financial solutions.</li>
+									<li align="justify" style="font-size: 18px;"><i class="fa fa-arrow-circle-right pr-10 colored"></i> To conduct and organize various technical seminars/workshops in the field of materials science and engineering.</li>
 								</ul>
-								<p>Dolores quam magnam aadipisicing  sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde molestias velit eveniet, facere autem saepe autrunt.</p>
 							</div>
+							<h2 style="position: relative; left: 15px;"> Details of Completed/Ongoing Projects</h2>
 							<div class="col-md-6">
+								
 								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									
 									<div class="panel panel-default">
 										<div class="panel-heading" role="tab" id="headingOne">
 											<h4 class="panel-title">
 												<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-													Collapsible Group Item #1
+													Detection of Voice changes using Acoustic Analysis (Ongoing)
 												</a>
 											</h4>
 										</div>
 										<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 											<div class="panel-body">
-												Consectetur adipisicing  sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat ntium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earumdignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt.
+												Voice is the most natural way to express one’s thoughts, but thyroid disease degrades the quality of one’s voice. Thyroid nodules are lumps of thyrocytes in the thyroid gland that may press the voice box, which results in voice change. To visualize the growth in the thyroid gland, the modified 3D Level Set Volumetric Segmentation (3D LSVS) techniques were used. Thyroid nodules severity can be measured based on the volume of the lump. An inferential statistic occurs with confidence intervals between the substance of very high concern (SVHC), Systemic Viral Infection (SVI), STMW and SVHD using Multivariate analysis (MVA) and testing. Acoustic analysis measured the voice changes. Different prevalent methods are compared concurrently and the results of quantitative analysis are better.
 											</div>
 										</div>
 									</div>
@@ -318,13 +369,13 @@
 										<div class="panel-heading" role="tab" id="headingTwo">
 											<h4 class="panel-title">
 												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-													Collapsible Group Item #2
+													Prediction Model for a Good Learning Environment (Ongoing)
 												</a>
 											</h4>
 										</div>
 										<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 											<div class="panel-body">
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat ntium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earumdignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt.
+												It consists of a series of modules; data preprocessing, data normalization, data split and finally classification or prediction by the RF classifier. The preprocessed data is normalized using minmax normalization often used before model fitting. As the input data or variables are measured at different scales, it is necessary to normalize them to contribute equally to the model fitting. Then, the RF classifier is employed for course selection which is an ensemble learning method and k-fold cross-validation (k = 10) is used to validate the model. The proposed Prediction Model for Course Selection (PMCS) system is considered a multi-class problem that predicts the course for a particular learner with three complexity levels, namely low, medium and high. It is operated under two modes; locally and globally. The former considers the gender of the learner and the later does not consider the gender of the learner. The database comprises the learner opinions from 75 males and 75 females per category (low, medium and high).Thus the system uses a total of 450 samples to evaluate the performance of the PMCS system. Results show that the system’s performance, while using locally i.e., genderwise has slightly higher performance than the global system.
 											</div>
 										</div>
 									</div>
@@ -332,13 +383,35 @@
 										<div class="panel-heading" role="tab" id="headingThree">
 											<h4 class="panel-title">
 												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-													Collapsible Group Item #3
+													Android Application to Increase Faculty Performance Using Gamified Leaderboard (Completed)
 												</a>
 											</h4>
 										</div>
 										<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 											<div class="panel-body">
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi adipisci illo, voluptatum ipsam fuga error commodi architecto, laudantium culpa tenetur at id, beatae placeat deserunt iure quas voluptas fugit eveniet.
+												In today’s world, Android Applications have changed our lives and have become an indispensable part of our lives because of its specialty to simplify our routine work, thereby saving our time and improving us professionally. Currently most of the Ranking system in any organization recruitments, Faculties performance are paper based, which costs time and resources. Criteria’s are developed, printed, and then collected data, entry, editing, cleaning, which is time consuming and costly. Proposed application is the starting to avoid those circumstances which have been currently faced by any organization. This application all about ranking and managing the faculties’ research works to identify top, deserves performers across the College campus. This program keeps the faculties driven by displaying their individual scores with an overall leaderboard, which motivates and helps to achieve their goal. The user has to sign up with their details and once it's done, a verification mail will be sent to their respective email Ids. Unless the user is verified, they won’t be able to proceed. Then it will be directed to the home screen where they can view their overall performance leaderboard, coding leaderboard, Mentorship leaderboard etc. They can avail leave and mark attendance through it. The faculties will add their individual achievements in the respective fields. After that, a request will be sent to the admin app, where the details given and the certification will be verified and approved. If the admin declines the request, the results will not be reflected in the leaderboard. Its use in the teaching-learning process has been carried out in parallel with active methodologies, and in the use of learning management systems that include various elements of the animation to be integrated for ranking and evaluation activities. The gamified programmatic contents idea is presented, and it specifies a level-based programmatic contents structure as well as other elements used, such as points and different types of rewards, the progress bar, and the leaderboard. These contents on the platform will help the organization for evaluation and motivate the faculties to learn and explore.
+												<p> KEYWORDS - Android application, College faculty management system, gamified leaderboard, Online leave management</p>
+												<p>Team Mentor - Ms. N. DEEPIKA, AP/CSE</p>
+												<p>Team Members - KISHORE THEERAJ V J, KOUSHIK EASWAR D and NARAYANI S</p>
+
+
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingfour">
+											<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+													Meta-Data-Based Recommendation System for Movies (Completed)
+												</a>
+											</h4>
+										</div>
+										<div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
+											<div class="panel-body">
+												The amount of data on the World Wide Web is growing exponentially. Users often get lost in this vast ocean of data. Recommendation systems are used to filter out valuable information from a large amount of data. According to the user's choice, the work proposes a movie recommendation system in this document. The proposed system aims to provide personalized movie recommendations selected by users. Generally, the underlying recommendation system uses the following factors to make recommendations: user preferences, called content-based filtering, or similar user preferences, called collaborative filtering. The proposed work uses a hybrid filtering, a combined approach of content and collaborative filtering Technology, to improve and expand user recommendations.
+												<p> KEYWORDS - Recommendation systems, Hybrid recommender, Meta Data-Based Filtering</p>
+												<p>Team Mentor - Ms. N. DEEPIKA, AP/CSE</p>
+												<p>Team Members - MORRIS DARREN, KARTHICK RAJ D and KARTHIKEYAN M</p>
 											</div>
 										</div>
 									</div>
@@ -356,7 +429,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
-						<h1 class="text-center">Amazing Free Bootstrap Template.</h1>
+						<h1 class="text-center" id="fml">Objectives of The Centre</h1>
+						<img src="images/portfolio-1.jpg" alt="">
 					</div>
 				</div>
 			</div>
@@ -366,26 +440,26 @@
 		<!-- section start --> 
 		<section class="section secPadding">
 			<div class="container">
-				<h1 class="text-center title" id="portfolio">Portfolio</h1>
+				<h1 class="text-center title" id="portfolio">Projects</h1>
 				<div class="separator"></div>
-				<p class="lead text-center">Lorem ipsum dolor sit amet laudantium molestias similique.<br> Quisquam incidunt ut laboriosam.</p>
-				<br>			
+				<p class="lead text-center">Artificial Intelligence projects are intelligent projects that make machines <br> capable of executing tasks requiring human intelligence</p>
+				<br>	-->		
 				<div class="row no-view" data-animation-effect="fadeIn">
 					<div class="col-md-12">
 
 						<!-- isotope filters start -->
-						<div class="filters text-center">
+						<!-- <div class="filters text-center">
 							<ul class="nav nav-pills">
 								<li class="active"><a href="#" data-filter="*">All</a></li>
 								<li><a href="#" data-filter=".web-design">Web design</a></li>
 								<li><a href="#" data-filter=".app-development">App development</a></li>
 								<li><a href="#" data-filter=".mobile-apps">Mobile Apps</a></li>
 							</ul>
-						</div>
+						</div> -->
 						<!-- isotope filters end -->
 
 						<!-- portfolio items start -->
-						<div class="isotope-container row grid-space-20">
+						<div class=" row grid-space-20">
 							<div class="col-sm-6 col-md-3 isotope-item web-design">
 								<div class="image-box">
 									<div class="overlay-container">
@@ -424,7 +498,6 @@
 								</div>
 								<!-- Modal end -->
 							</div>
-
 							<div class="col-sm-6 col-md-3 isotope-item app-development">
 								<div class="image-box">
 									<div class="overlay-container">
@@ -853,162 +926,9 @@
 			</div>
 		</section>
 		<!-- section end -->
-<!-- section start --> 
-		<section class="default-bg secPadding">
-			
-<div class="container">
-  <div class="row">
-    <div class='col-md-offset-2 col-md-8 text-center'>
-    <h2>Clients Testimonials</h2>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='col-md-offset-2 col-md-8'>
-      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-        <!-- Bottom Carousel Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#quote-carousel" data-slide-to="1"></li>
-          <li data-target="#quote-carousel" data-slide-to="2"></li>
-        </ol>
-        
-        <!-- Carousel Slides / Quotes -->
-        <div class="carousel-inner">
-        
-          <!-- Quote 1 -->
-          <div class="item active">
-            <blockquote>
-              <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">
-                </div>
-                <div class="col-sm-9">
-                  <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
-                  <small>Someone famous</small>
-                </div>
-              </div>
-            </blockquote>
-          </div>
-          <!-- Quote 2 -->
-          <div class="item">
-            <blockquote>
-              <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/mijustin/128.jpg" style="width: 100px;height:100px;">
-                </div>
-                <div class="col-sm-9">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
-                  <small>Someone famous</small>
-                </div>
-              </div>
-            </blockquote>
-          </div>
-          <!-- Quote 3 -->
-          <div class="item">
-            <blockquote>
-              <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/keizgoesboom/128.jpg" style="width: 100px;height:100px;">
-                </div>
-                <div class="col-sm-9">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
-                  <small>Someone famous</small>
-                </div>
-              </div>
-            </blockquote>
-          </div>
-        </div>              
-      </div>                          
-    </div>
-  </div>
-</div>
-		</section>
-		<!-- section end -->
-		<section id="price" class="price-table secPadding">
-    	 <div class="container text-center"> 
-         <div class="heading">
-            <h1 class="text-center title" id="">Our Price</h1>
-				<div class="separator"></div>
-				<p class="lead text-center">Lorem ipsum dolor sit amet laudantium molestias similique.<br> Quisquam incidunt ut laboriosam.</p>
-				<br>	
-          </div> 
-         	<div class="row"> 
-            <div class="col-sm-3">
-              <div class="panel panel-default text-center">
-                <div class="panel-heading">
-                  <h3>Basic</h3>
-                </div>
-                <div class="panel-body">
-                  <h3 class="panel-title price">$9<span class="price-cents">99</span><span class="price-month">mo.</span></h3>
-                </div>
-                <ul class="list-group">
-                  <li class="list-group-item">5 Projects</li>
-                  <li class="list-group-item">5 GB of Storage</li>
-                  <li class="list-group-item">Up to 100 Users</li>
-                  <li class="list-group-item">10 GB Bandwidth</li>
-                  <li class="list-group-item">Security Suite</li>
-                  <li class="list-group-item"><a class="btn btn-default">Sign Up Now!</a></li>
-                </ul>
-              </div>          
-            </div>
-            <div class="col-sm-3">
-              <div class="panel panel-default text-center">
-                <div class="panel-heading">
-                  <h3>Plus</h3>
-                </div>
-                <div class="panel-body">
-                  <h3 class="panel-title price">$19<span class="price-cents">99</span><span class="price-month">mo.</span></h3>
-                </div>
-                <ul class="list-group">
-                  <li class="list-group-item">10 Projects</li>
-                  <li class="list-group-item">10 GB of Storage</li>
-                  <li class="list-group-item">Up to 250 Users</li>
-                  <li class="list-group-item">25 GB Bandwidth</li>
-                  <li class="list-group-item">Security Suite</li>
-                  <li class="list-group-item"><a class="btn btn-default">Sign Up Now!</a></li>
-                </ul>
-              </div>          
-            </div>
-            <div class="col-sm-3">
-              <div class="panel panel-danger text-center">
-                <div class="panel-heading">
-                  <h3>Premium</h3>
-                </div>
-                <div class="panel-body">
-                  <h3 class="panel-title price">$29<span class="price-cents">99</span><span class="price-month">mo.</span></h3>
-                </div>
-                <ul class="list-group">
-                  <li class="list-group-item">Unlimited</li>
-                  <li class="list-group-item">50 GB of Storage</li>
-                  <li class="list-group-item">Up to 1000 Users</li>
-                  <li class="list-group-item">100 GB Bandwidth</li>
-                  <li class="list-group-item">Security Suite</li>
-                  <li class="list-group-item"><a class="btn btn-primary">Sign Up Now!</a></li>
-                </ul>
-              </div>          
-            </div>
-            <div class="col-sm-3">
-              <div class="panel panel-default text-center">
-                <div class="panel-heading">
-                  <h3>Ultimate</h3>
-                </div>
-                <div class="panel-body">
-                  <h3 class="panel-title price">$49<span class="price-cents">99</span><span class="price-month">mo.</span></h3>
-                </div>
-                <ul class="list-group">
-                  <li class="list-group-item">Unlimited</li>
-                  <li class="list-group-item">150 GB of Storage</li>
-                  <li class="list-group-item">Unlimited</li>
-                  <li class="list-group-item">500 GB Bandwidth</li>
-                  <li class="list-group-item">Security Suite</li>
-                  <li class="list-group-item"><a class="btn btn-default">Sign Up Now!</a></li>
-                </ul>
-              </div>          
-            </div>
-     
-          </div>
-         </div>      
-    </section>
+<!-- section start -->
+
+	
 		
 
 		<!-- footer start --> 
@@ -1023,7 +943,8 @@
 						
 						<div class="col-sm-6">
 							<div class="footer-content">
-								<form role="form" id="footer-form">
+								<img class="contact_pic" src="images/Ashok sir.jpeg">
+								<!--<form role="form" id="footer-form">
 									<div class="form-group has-feedback">
 										<label class="sr-only" for="name2">Name</label>
 										<input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
@@ -1040,7 +961,7 @@
 										<i class="fa fa-pencil form-control-feedback"></i>
 									</div>
 									<input type="submit" value="Send" class="btn btn-default">
-								</form>
+								</form> -->
 							</div>
 						</div>
 						
@@ -1050,13 +971,13 @@
 
 							<div class="widget-content">
 
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nam magnam natus tempora cumque, aliquam deleniti voluptatibus voluptas. Maecenas ultrices finibus erat sit amet auctor. Curabitur et metus laoreet, fermentum quam sagittis, cursus augue. </p><br/>
+								<h1>Ashok M </h1><br/>
 
-								<p class="contacts"><i class="fa fa-map-marker"></i> 1508 Kembery Drive, Chicago, IL 60605 </p>
+								<p class="contacts"><i class="fa fa-map-marker"></i> Kuthambakkam, Post, Chembarambakkam, Tamil Nadu 600124 </p>
 
-								<p class="contacts"><i class="fa fa-phone"></i> 202-314-1583</p>
+								<p class="contacts"><i class="fa fa-phone"></i> +91 76674 72476</p>
 
-								<p class="contacts"><i class="fa fa-envelope"></i> support@biss.com</p>
+								<p class="contacts"><i class="fa fa-envelope"></i> ashok.m@ritchennai.edu.in</p>
 
 							
 
@@ -1064,12 +985,12 @@
 
 						</aside>
 								<ul class="social-links">
-									<li class="facebook"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+									<!-- <li class="facebook"><a target="_blank" href="google.com"><i class="fa fa-facebook"></i></a></li>
 									<li class="twitter"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
 									<li class="googleplus"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-									<li class="skype"><a target="_blank" href="#"><i class="fa fa-skype"></i></a></li>
-									<li class="linkedin"><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li class="youtube"><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li> 
+									<li class="skype"><a target="_blank" href="#"><i class="fa fa-skype"></i></a></li> -->
+									<li class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/ashok-m-25b397b6/"><i class="fa fa-linkedin"></i></a></li>
+									<!-- <li class="youtube"><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li> -->
 								</ul>
 							</div>
 						</div>
